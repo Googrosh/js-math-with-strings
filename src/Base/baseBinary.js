@@ -1,7 +1,5 @@
 // @flow
 
-import type { BaseType } from '../BaseConverter';
+const baseBinary = Object.freeze(['0', '1'])
 
-const baseBinary: BaseType = Object.freeze([0, 1]);
-
-export default baseBinary;
+export default baseBinary
