@@ -19,7 +19,12 @@ export default class BaseConverter {
    * @author Andrea d'Argenio <a.dargenio90@gmail.com>
    */
   static encode = (num, base) => {
-    if (typeof num !== 'string' || num === null || !Array.isArray(base) || !base.length) {
+    if (
+      typeof num !== 'string' ||
+      num === null ||
+      !Array.isArray(base) ||
+      !base.length
+    ) {
       return null
     }
   
@@ -61,7 +66,10 @@ export default class BaseConverter {
       return null
     }
     const count = base.length
-    const hash = base.reduce((hash, num, i) => { hash[num] = i; return hash }, {})
+    const hash = base.reduce((hash, num, i) => {
+      hash[num] = i
+      return hash
+    }, {})
   
     let number = '0'
     let str = String(value)

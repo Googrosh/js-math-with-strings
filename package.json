@@ -1,7 +1,7 @@
 {
-  "name": "@cheprasov/base-converter",
+  "name": "@googrosh/js-math-with-strings",
   "version": "1.0.0",
-  "author": "Alexander Cheprasov",
+  "author": "Andrea d'Argenio",
   "description": "The library allows to convert a number between arbitrary bases",
   "keywords": [
     "base converter",
@@ -9,13 +9,16 @@
     "octal",
     "decimal",
     "hexadecimal",
+    "hexatridecimal",
+    "base32",
+    "base64",
     "base"
   ],
   "main": "dist/base-converter.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheprasov/js-base-converter"
+    "url": "git+https://github.com/Googrosh/js-math-with-strings"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
